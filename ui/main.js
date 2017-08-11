@@ -7,7 +7,7 @@ button.onclick =function(){
     
     //Create a Request object
     request.onreadystatechange=function(){
-        if(request.readystate===XMLHttpRequest.DONE)
+        if(request.readyState===XMLHttpRequest.DONE)
         {
             //Take some Action
             if(request.status===200)
