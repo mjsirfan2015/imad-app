@@ -4,7 +4,7 @@ button.onclick =function(){
     //make a request to counter endpoint
     //Capture the Request and store it in avariable
     //Render the variable in the correct span
-    var counter=0;
+    
     counter+=1;
     var span=document.getElementById("count");
     span.innerHTML=counter.toString();
