@@ -6,7 +6,7 @@ button.onclick =function(){
     //Capture the Request and store it in avariable
     //Render the variable in the correct span
     
-    counter+=1;
+    counter=counter+1;
     var span=document.getElementById("count");
     span.innerHTML=counter.toString();
 }
