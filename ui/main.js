@@ -18,11 +18,11 @@ button.onclick =function(){
             }
         }
         //Not done
-    }
+    };
     //Make a Request
     request.open("GET","http://mohammedirfan2012india.imad.hasura-app.io/counter",true);
     request.send(null);
-    
+};
     var nameinput=document.getElementById("name");
     var name=nameinput.value;
     var submit=document.getElementById("submit_btn");
@@ -38,5 +38,4 @@ button.onclick =function(){
         namelist.innerHTML=list;
         
     }
-    } 
-}
+    } ;
