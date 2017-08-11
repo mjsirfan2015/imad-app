@@ -1,14 +1,11 @@
-console.log('Loaded!');
-//gets element by their id
-var element=document.getElementById("main-text");
-element.innerHTML="New Value";
-var img=document.getElementById("madi");
-var marginLeft=100
-function movRight()
-{
-    marginLeft+=1;
-    img.style.marginLeft=marginLeft+"px";
+//Counter Code
+var button=document.getElementById("counter");
+button.onclick =function(){
+    //make a request to counter endpoint
+    //Capture the Request and store it in avariable
+    //Render the variable in the correct span
+    var counter=0;
+    counter+=1;
+    var span=document.getElementById("count");
+    span.innerHTML=counter.toString();
 }
-img.onclick=function(){
-    movinterval= setInterval(movRight,100);
-};
